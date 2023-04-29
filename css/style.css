@@ -155,7 +155,7 @@ footer a {
   .cards {
     margin: 5rem;
     width: 40rem;
-    height: auto;
+    height: 20rem;
     display: grid;
     padding: 0;
   }

@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/single-price-grid-component-using-html-5-css-and-flexbox-and-grid-VSsJ8-KLTf)
+- [Live Site URL](https://marilisa-saldanha.github.io/single-price-grid-component-master/)
 
 ### Built with
 
