@@ -20,16 +20,22 @@
 
 body {
   background-color: var(--light-gray);
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  place-content: center;
 }
 
 .container {
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .cards {
   width: 23rem;
+  height: 47rem;
   padding: 1.5rem;
 }
 
@@ -104,6 +110,13 @@ body {
   font-size: .9rem;
   font-weight: 700;
   border-radius: .4rem;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.card2 button:hover {
+  background-color:transparent;
+  border: 0.125rem solid white;
 }
 
 .card3 {
@@ -150,15 +163,13 @@ footer a {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto;
-    min-height: 100vh;
   }
   
   .cards {
     margin: auto;
-    width: 42rem;
-    height: 30rem;
+    width: 43rem;
+    height: 32rem;
     display: grid;
-    padding: 1rem;
   }
 
   .card1 {
